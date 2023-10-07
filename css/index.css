@@ -1,0 +1,162 @@
+
+*{
+    margin:0;
+    scroll-behavior: smooth;
+}
+a{
+    text-decoration: none;
+    color: #f2f6f8;
+}
+body{
+    background-color: rgb(223, 189, 151);
+}
+.brand{
+    padding: 2% 5%;
+    font-family: 'Young Serif', serif;
+   
+    margin-right: auto;
+}
+section{
+    min-height: 300px;
+    background-color: rgb(231, 144, 44);
+    border-radius: 0px 0px 20px 20px;
+}
+section > *{
+    padding: 10px;
+}
+.navbar{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+    list-style: none;
+    display: flex;
+   justify-content: flex-end;
+   padding: 0;
+   margin:0;
+   background-color: rgb(255, 251, 246);
+}
+.navbar-link{
+    padding: 2% 5%;
+    background-color: rgb(242, 161, 69);
+transition: all 0.5s;
+}
+.left:hover{
+    background-color: rgb(242, 161, 69);
+border-radius: 25px 0px 0px 0px;
+}
+
+.right:hover{
+    background-color: rgb(242, 161, 69);
+border-radius: 0px 25px 0px 0px;
+
+}
+
+.fright{
+    float: right;
+}
+.profile{
+  
+   
+    width: 20%;
+    margin-right: 15%;
+    border-radius: 5rem;
+    
+}
+.typing-wrapper {
+    margin-top: 10%;
+    margin-left: 3%;
+    display: inline-block;
+    /*This part is important for centering*/
+   
+  }
+  
+  .typing-text{
+    width: 11ch;
+    animation: typing 1.5s infinite alternate, blink .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+    font-family: monospace;
+    font-size: 1.5em;
+  }
+  
+  @keyframes typing {
+    from {
+      width: 0
+    }
+  }
+      
+  @keyframes blink {
+    50% {
+      border-color: transparent
+    }
+  }
+
+
+  .contact{
+    color: wheat;
+    background-color: rgb(56, 56, 56);
+    border-radius: 15px 15px 0px 0px;
+    padding: 10px;
+    display: grid;
+    place-items: center;
+margin-top: 100px;
+  }
+  .contact > h1{
+    
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin-bottom: 50PX;
+  } 
+
+
+
+
+form > *{
+    margin: 5px;
+}
+
+form {
+	
+	
+	.title {
+		font-family: 'Pacifico', cursive;
+		color: #fdd47b;
+		font-size: 2.5rem;
+	}
+	
+  .form-control {
+    background-color: #f2f6f8;
+		border-radius: 2rem;
+    border: none;
+    box-shadow: 0px 7px 5px rgba(0, 0, 0, 0.11);
+		
+  }
+  .thick {
+    height: 3.3rem;
+    padding: .5rem 3.5rem;
+  }
+	.message .form-control {
+			padding: .5rem 1.8rem;
+	}
+	
+	
+  input,
+  textarea {
+		font-family: 'Quicksand', sans-serif;
+    color: #212529;
+    font-size: 1.1rem;
+  }
+}
+
+.btn{
+  font-family: 'Quicksand', sans-serif;
+	font-weight: bold;
+  height: 2.5rem;
+  line-height: 2.5rem;
+  padding: 0 3rem;
+  border: 0;
+  border-radius: 3rem;
+  background-color:rgb(237, 153, 9);
+  background-size: 300% 100%;
+  transition: all 0.3s ease-in-out;
+}
+
